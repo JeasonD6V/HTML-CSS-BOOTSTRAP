@@ -1,42 +1,56 @@
-<style>
-      ul {
-            width: 30%;
+<!DOCTYPE html>
+<html lang="en">
 
-      }
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            ul {
+                  width: 30%;
 
-      ul>li {
-            background-color: #3f3f3f;
-            padding: 12px;
-            margin-left: -40px;
+            }
 
-      }
+            ul>li {
+                  background-color: #3f3f3f;
+                  padding: 12px;
+                  margin-left: -40px;
 
-      ul>li:hover {
-            background-color: grey;
-            transition: 0, 3;
+            }
 
-      }
+            ul>li:hover {
+                  background-color: grey;
+                  transition: 0, 3;
 
-      ul>li>a {
-            text-decoration: none;
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            font-weight: bold;
+            }
 
-      }
+            ul>li>a {
+                  text-decoration: none;
+                  color: white;
+                  font-family: Arial, Helvetica, sans-serif;
+                  font-weight: bold;
 
-      ul>li:nth-child(1) {
-            background-color: green;
-      }
+            }
 
-      i {
-            padding-right: 10px;
-      }
-</style>
-<ul type="none">
-      <li><a href="home"><i class="fa-solid fa-house"></i>Home</a></li>
-      <li><a href="news"><i class="fa-solid fa-newspaper"></i>News</a></li>
-      <li><a href="contact"><i class="fa-solid fa-address-card"></i>Contact</a></li>
-      <li><a href="about"><i class="fa-solid fa-eject"></i>About</a></li>
+            ul>li:nth-child(1) {
+                  background-color: green;
+            }
 
-</ul>
+            i {
+                  padding-right: 10px;
+            }
+      </style>
+</head>
+
+<body>
+      <ul type="none">
+            <li><a href="home"><i class="fa-solid fa-house"></i>Home</a></li>
+            <li><a href="news"><i class="fa-solid fa-newspaper"></i>News</a></li>
+            <li><a href="contact"><i class="fa-solid fa-address-card"></i>Contact</a></li>
+            <li><a href="about"><i class="fa-solid fa-eject"></i>About</a></li>
+
+      </ul>
+
+</body>
+
+</html>
