@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <style>
+            * table {
+                  width: 100%;
+            }
+
+            table,
+            th,
+            td {
+                  border: 1px solid black;
+                  border-collapse: collapse;
+            }
+
+            #customers th {
+                  background-color: green;
+                  color: white;
+            }
+
+            #customers tr:nth-child(even) {
+                  background-color: lightgrey;
+            }
+
+            #customers tr:hover {
+                  background-color: orange;
+            }
+
+            #customers th {
+                  text-align: left;
+                  padding: 5px;
+
+            }
+      </style>
+</head>
+
+<body>
+      <table id="customers">
+            <tr>
+                  <th>Company</th>
+                  <th>Contact</th>
+                  <th>Country</th>
+            </tr>
+            <tr>
+                  <td>Apple Inc.</td>
+                  <td>John Doe</td>
+                  <td>ABD</td>
+            </tr>
+            <tr>
+                  <td>Toyota</td>
+                  <td>Masato Tanaka</td>
+                  <td>Japonya</td>
+            </tr>
+            <tr>
+                  <td>Samsung Electronics</td>
+                  <td>Ji-hye Kim</td>
+                  <td>Güney Kore</td>
+            </tr>
+            <tr>
+                  <td>Siemens AG</td>
+                  <td>Lisa Müller</td>
+                  <td>Almanya</td>
+            </tr>
+            <tr>
+                  <td>Google LLC</td>
+                  <td>Emily Smith</td>
+                  <td>ABD</td>
+            </tr>
+            <tr>
+                  <td>Amazon.com Inc.</td>
+                  <td>Michael Johnson</td>
+                  <td>ABD</td>
+            </tr>
+            <tr>
+                  <td>Volkswagen Group</td>
+                  <td>Andreas Fischer</td>
+                  <td>Almanya</td>
+            </tr>
+            <tr>
+                  <td>Facebook Inc.</td>
+                  <td>Sarah Brown</td>
+                  <td>ABD</td>
+            </tr>
+            <tr>
+                  <td>Nestlé SA</td>
+                  <td>Thomas Müller</td>
+                  <td>İsviçre</td>
+            </tr>
+            <tr>
+                  <td>Shell</td>
+                  <td>Robert Johnson</td>
+                  <td>Hollanda</td>
+            </tr>
+      </table>
+</body>
+
+</html>
