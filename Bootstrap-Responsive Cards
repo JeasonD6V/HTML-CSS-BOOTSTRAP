@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <title>Boostrap Card</title>
+</head>
+<body>
+      
+      <div class="container">
+            <h3 class="text-center mb-3 my-3">IMAGES</h3>
+            <div class="row">
+                  <div class="col-sm">
+                        <div class="card">
+                              <img src="/2024foto/lambo.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col-sm">
+                        <div class="card">
+                              <img src="/2024foto/lambo.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                  </div>
+                  <div class="col-sm">
+                        <div class="card">
+                              <img src="/2024foto/lambo.jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                              </div>
+                            </div>
+                  </div>
+                  <div class="row">
+                        <div class="card col-12 mt-3">
+                              <div class="card-header">
+                                Quote
+                              </div>
+                              <div class="card-body">
+                                <blockquote class="blockquote mb-0">
+                                  <p>A well-known quote, contained in a blockquote element.</p>
+                                  <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                                </blockquote>
+                              </div>
+                            </div>
+                  </div>
+                  <div class="row my-5">
+                         <div class="col-sm-12 col-sm-4 col-lg-4">
+                              <div class="card" >
+                                    <div class="card-header">
+                                      Featured
+                                    </div>
+                                    <ul class="list-group list-group-flush text-decoration-none">
+                                      <li class="list-group-item"><a href="">Github</a></li>
+                                      <li class="list-group-item">A second item</li>
+                                      <li class="list-group-item">A third item</li>
+                                    </ul>
+                                  </div>
+                                  <div class="card text-bg-warning my-5">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Warning card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                              </div>
+                              <div class="card text-bg-success mb-3">
+                                    <div class="card-header">Header</div>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Success card title</h5>
+                                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                    </div>
+                                  </div>
+                         </div>
+                         <div class="col-sm-12 col-md-8 col-lg-8">
+                              <div class="card my-5">
+                                    <img src="/2024foto/lol.jpeg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Card title</h5>
+                                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                      <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                                    </div>
+                              </div>
+      
+                         </div>
+                  </div>
+            </div>
+      
+      </div>
+
+</body>
+</html>
