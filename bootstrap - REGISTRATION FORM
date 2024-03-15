@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>REGISTRATION FORM</title>
+</head>
+
+<body>
+      <div class="container">
+            <h3 class="text-center mt-3">REGISTRATION FORM</h3>
+            <form class="mt-5">
+
+                  <div class="row">
+                        <div class="col">
+                              <div class="mb-3">
+                                    <label for="name" class="form-label">Name And Surname</label>
+                                    <input type="text" class="form-control" required id="nameInput"
+                                          aria-describedby="namehelp">
+                                    <div id="namehelp" class="form-text">this field is mandatory</div>
+                              </div>
+                        </div>
+                        <div class="col">
+                              <div class="mb-3">
+                                    <label for="password" class="form-label">Your password</label>
+                                    <input type="password" required class="form-control" id="passwordInout"
+                                          aria-describedby="passwordhelp">
+                                    <div id="namehelp" class="form-text">this field is mandatory</div>
+                              </div>
+                        </div>
+                  </div>
+
+
+                  <div class="row">
+                        <div class="col">
+                              <div class="form-group">
+                                    <label for="email">E-Mail</label>
+                                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                              </div>
+
+                        </div>
+                        <div class="col">
+                              <div class="form-group form-control-md">
+                                    <label for="select">Select City</label>
+                                    <select class="form-control" id="select">
+                                          <option value="">Dubai</option>
+                                          <option value="">New York</option>
+                                          <option value="">Paris</option>
+                                          <option value="">İstanbul</option>
+                                          <option value="">London</option>
+                                    </select>
+                              </div>
+                        </div>
+                  </div>
+                  <br>
+
+                  <div class="row">
+                        <div class="col">
+                              <div class="form-group asd">
+                                    <label for="file">Select your picture: </label><br>
+                                    <input type="file" class="form-control-file" id="file">
+                              </div><br>
+                        </div>
+                        <div class="col">
+
+
+                              <h6>Gender</h6>
+                              <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gender">
+                                    <label class="form-check-label">
+                                          Man
+                                    </label>
+                              </div>
+                              <div class="form-check">
+                                    <label class="form-check-label">
+                                          Woman
+                                    </label>
+
+                              </div>
+                              <br>
+                              <div class="col">
+                                    <h6>Hobbies</h6>
+                                    <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="check1">
+                                          <label class="form-check-label" for="check1">
+                                                Reading a book
+                                          </label>
+                                    </div>
+                                    <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="check2">
+                                          <label class="form-check-label" for="check2">
+                                                Traveling
+                                          </label>
+                                    </div>
+                                    <div class="form-check">
+                                          <input class="form-check-input" type="checkbox" value="" id="check3">
+                                          <label class="form-check-label" for="check3">
+                                                Playing Guitar
+                                          </label>
+
+
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+                  <div class="row">
+                        <button type="submit" class="btn btn-success btn-block my-3">Save</button>
+                        <button type="reset" class="btn btn-danger btn-block">Reset</button>
+                  </div>
+            </form>
+      </div>
+      <input class="form-check-input" type="radio" name="gender">
+
+</body>
+
+</html>
