@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My CV</title>
+</head>
+
+<body>
+    <div class="container card mt-1">
+
+        <div class="row p-0 m-0 justify-content-center text-center">
+            <img src="foto/man.png" class="" style=" max-width: 100px; max-height: 64px;">
+            <h4>Ben John Doe</h4>
+            <h6>Web Designer</h6>
+        </div>
+
+        <div class="row">
+
+            <div class="col col-lg-2 col-xl-2 border-end border-danger">
+                <h4 class="text-primary text-center">About Me</h4>
+                <p>
+                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's...
+                </p>
+
+                <h4 class="text-primary text-center">Contact</h4>
+                <h6 class="text-left">
+                    Email: <br />
+                    <small class="text-body-secondary"> johndoe@gmail.com </small>
+                </h6>
+                <h6 class="text-left">
+                    Phone Number:<br />
+                    <small class="text-body-secondary">(937) 675-2308</small>
+                </h6>
+                <h6 class="text-left">Address:</h6>
+                <h6 class="text-left">Website:</h6>
+
+
+                <h4 class="text-primary text-center">My Skills</h4>
+                <small>
+                    CSS
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 20%;"> 20%</div>
+                    </div>
+
+                    HTML
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 80%;">80%</div>
+                    </div>
+
+                    JS
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+
+                    PHP
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 90%;">90%</div>
+                    </div>
+                    NodeJS
+                    <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0"
+                        aria-valuemin="0" aria-valuemax="100">
+                        <div class="progress-bar" style="width: 70%;">70%</div>
+                    </div>
+
+                </small>
+
+            </div>
+
+
+            <div class="col col-lg-10 col-xl-10">
+
+                <div class="justify-content-center border radius">
+                    <h5 class="justify-content-center">Languages I Know</h5>
+
+                    Swedish
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="22"
+                            aria-valuemin="0" aria-valuemax="100" style="width:22%">
+                            22%
+                        </div>
+                    </div>
+
+                    English
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active bg-success" role="progressbar"
+                            aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:40%">
+                            40%
+                        </div>
+                    </div>
+                    French
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped active bg-info bg-warning" role="progressbar"
+                            aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width:65%">
+                            65%
+                        </div>
+                    </div>
+                </div>
+                German
+                <div class="progress">
+                    <div class="progress-bar progress-bar-striped active bg-danger" role="progressbar"
+                        aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:80%">
+                        80%
+                    </div>
+                </div>
+                <hr>
+                <center>
+                    <h4 class="justify-content-center">Hobbies</h4>
+                </center>
+                <ul>
+                    <div class="row ">
+                        <div class="col col-sm-6 col-lg-10 ">
+                            <div class="row">
+
+                                <div class="col col-3">
+                                    <li>Loving Animals</li>
+                                </div>
+
+                                <div class="col col-3">
+                                    <li>Listening to Music</li>
+                                </div>
+
+                                <div class="col col-3">
+                                    <li>Playing Guitar</li>
+                                </div>
+                                <div class="col col-3">
+                                    <li>Reading Books</li>
+                                </div>
+                                <div class="col col-3">
+                                    <li>Browsing the Internet</li>
+                                </div>
+                                <div class="col col-3">
+                                    <li>Going Outdoors</li>
+                                </div>
+                                <div class="col col-3">
+                                    <li>Drawing</li>
+                                </div>
+                                <div class="col col-3">
+                                    <li>Doing Sports</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+
+
+                <div bordered rounded border-primary border-px>
+                    <form action="" method="get">
+                        <div class="row border rounded ms-1 justify-content-center ">
+                            <h4 class="justify-content-center">Contact Me</h4>
+
+                            <div class="row p-1">
+                                <div class="col col-sm-6 col-lg-2 ">Subject: </div>
+                                <div class="col col-sm-6 col-lg-10"><input type="text" name="" required id=""
+                                        class="form-input col-12 rounded p-2  border-warning"></div>
+                            </div>
+
+
+                            <div class="row p-1">
+                                <div class="col col-sm-6 col-lg-2 "> Field of Work </div>
+                                <div class="col col-sm-6 col-lg-10">
+                                    <select name="" id="" class="col-12 form-select">
+                                        <option value="HTML">HTML Interface Design</option>
+                                        <option value="CSS">CSS Consultancy</option>
+                                        <option value="JSDOM">JS DOM Lesson</option>
+                                        <option value="PHP">Server Programming with PHP</option>
+                                        <option value="E-Commerce">E-Commerce Training - Consultancy </option>
+                                        <option value="SEO">SEO Consultancy</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row p-1">
+                                <div class="col col-sm-6 col-lg-2 ">Your Message: </div>
+                                <div class="col col-sm-6 col-lg-10"><textarea name="" id=""
+                                        class="col-12 rounded p-2 border-warning"></textarea></div>
+                            </div>
+
+                            <div class="row ">
+                                <div class="col col-sm-6 col-lg-2 ">Working Conditions</div>
+                                <div class="col col-sm-6 col-lg-10 ">
+                                    <div class="row">
+
+                                        <div class="col col-4">
+                                            <input type="radio" class="form-check-input" name="time" id=""> Full-time
+                                        </div>
+
+                                        <div class="col col-4">
+                                            <input type="radio" class="form-check-input" name="time" id=""> Part-time
+                                        </div>
+
+                                        <div class="col col-4">
+                                            <input type="checkbox" name="no_travel" id="">No Travel Restrictions
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+
+
+
+
+
+
+                                <div class="row bg-danger rounded-4">
+                                    <input type="submit" value="Send" class="form-input ">
+                                </div>
+                            </div>
+
+                        </div>
+
+                </div>
+
+                </form>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </div>
+    <br><br>
+</body>
+
+</html>
