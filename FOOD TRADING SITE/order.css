@@ -1,0 +1,15 @@
+body {
+      background-color: #f5f5f5;
+      text-align: center;
+      background: linear-gradient(90deg, rgba(68,121,9,1) 14%, rgba(9,121,16,1) 38%, rgba(9,121,54,1) 46%, rgba(62,121,10,1) 55%, rgba(9,121,26,1) 66%);      background-size: cover;
+  }
+  
+  h1 {
+      color: #FF69B4;
+      font-size: 36px;
+  }
+  
+  img {
+      max-width: 100%;
+      height: auto;
+  }
